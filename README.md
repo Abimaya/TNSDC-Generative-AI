@@ -11,6 +11,13 @@ This project implements the U-Net architecture for precise human segmentation fr
 
 To use this project, you'll need Python installed on your system or use Google colab. Additionally, you need to install the required libraries. You can install them using pip.
 
+## procedure
+
+1.Ensure you have your images ready for human segmentation
+2.Replace the image_location variable in the code with path of the image.
+3.Run the code.
+4.The human image and mask will be displayed.
+
 ## Dataset
 
 The dataset for the Human Segmentation Using U-Net project consists of diverse images containing human subjects in various poses and backgrounds. It encompasses annotated ground truth masks corresponding to each image, facilitating supervised training of the U-Net model for accurate segmentation. Additionally, the dataset may include metadata such as image dimensions, pixel resolution, and annotations specifying the location and boundaries of segmented human subjects, ensuring comprehensive training and evaluation of the segmentation model.
